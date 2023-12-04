@@ -45,7 +45,7 @@ public class DriverFactory {
 	      WebElement Element = getDriver().findElement(By.xpath("//*[@id=\"c-p-bn\"]"));
 	      JavascriptExecutor js = (JavascriptExecutor)getDriver();
 		  js.executeScript("arguments[0].click();",Element);
-		 // Element.click();
+		
 	    
           return getDriver();
 		

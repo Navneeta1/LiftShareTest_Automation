@@ -39,11 +39,11 @@ public class HomePage {
 		      driver.findElement(By.xpath("//*[@id=\"liftshare\"]/section/div/div/div[2]/div[2]/div/div/div[1]/div")).click();
         }
    
+  //Add Journey Page code
+  
   public void JourneyStart() {
 		   
 		   
-	           //Add Journey Page
-
 			   driver.findElement(By.xpath("//header/div[1]/div[1]/a[1]")).click();
 			   driver.findElement(By.xpath(" //input[@id='AutocompleteOrigin']")).sendKeys("Southampton SO14,UK");
 			   
